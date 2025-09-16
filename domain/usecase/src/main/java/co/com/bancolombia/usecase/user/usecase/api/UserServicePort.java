@@ -5,5 +5,4 @@ import reactor.core.publisher.Mono;
 
 public interface UserServicePort {
     Mono<UserModel> createUser(UserModel userModel);
-    Mono<UserModel> findUserByEmail(String emailUser);
 }
