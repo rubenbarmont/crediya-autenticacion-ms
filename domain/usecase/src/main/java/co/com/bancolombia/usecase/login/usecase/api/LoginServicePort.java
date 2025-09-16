@@ -1,4 +1,4 @@
-package co.com.bancolombia.usecase.login.usecase.api;
+package co.com.bancolombia.usecase.auth.usecase.api;
 
 import co.com.bancolombia.model.login.model.LoginRequest;
 import co.com.bancolombia.model.login.model.LoginResponse;
