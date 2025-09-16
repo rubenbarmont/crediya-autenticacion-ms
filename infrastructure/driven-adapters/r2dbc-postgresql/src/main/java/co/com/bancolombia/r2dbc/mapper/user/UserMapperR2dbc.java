@@ -1,9 +1,8 @@
-package co.com.bancolombia.r2dbc.mapper.user;
+package co.com.bancolombia.r2dbc.mapper;
 
 import co.com.bancolombia.model.user.model.RoleModel;
 import co.com.bancolombia.model.user.model.UserModel;
-import co.com.bancolombia.r2dbc.entity.user.UserEntity;
-import co.com.bancolombia.r2dbc.mapper.role.RoleMapperR2dbc;
+import co.com.bancolombia.r2dbc.entity.UserEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
