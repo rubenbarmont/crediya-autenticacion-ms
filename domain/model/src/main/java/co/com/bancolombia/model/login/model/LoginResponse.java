@@ -1,10 +1,10 @@
-package co.com.bancolombia.model.login.model;
+package co.com.bancolombia.model.auth.model;
 
-public class LoginResponse {
+public class AuthResponse {
     private String  accessToken;
     private Long expiresIn;
 
-    public LoginResponse(String accessToken, Long expiresIn) {
+    public AuthResponse(String accessToken, Long expiresIn) {
         this.accessToken = accessToken;
         this.expiresIn = expiresIn;
     }

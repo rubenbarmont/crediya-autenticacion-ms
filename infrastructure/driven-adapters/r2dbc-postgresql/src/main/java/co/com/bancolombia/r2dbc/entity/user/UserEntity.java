@@ -1,6 +1,5 @@
-package co.com.bancolombia.r2dbc.entity.user;
+package co.com.bancolombia.r2dbc.entity;
 
-import co.com.bancolombia.authsecurity.model.auth.UserAuth;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 import org.springframework.data.relational.core.mapping.Column;
@@ -9,8 +8,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.Collection;
-import java.util.List;
 
 @Data
 @NoArgsConstructor
