@@ -1,8 +1,4 @@
-package co.com.bancolombia.r2dbc.mapper.login;
+package co.com.bancolombia.r2dbc.mapper.auth;
 
-import org.mapstruct.Mapper;
-
-@Mapper(componentModel = "spring")
-public interface LoginMapperR2dbc {
-
+public interface LoginMapperR2dbx {
 }
