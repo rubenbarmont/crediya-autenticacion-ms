@@ -1,6 +1,4 @@
-package co.com.bancolombia.model.user.model.user;
-
-import co.com.bancolombia.model.user.model.role.RoleModel;
+package co.com.bancolombia.model.user.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -15,9 +13,8 @@ public class UserModel {
     private String phoneUser;
     private String emailUser;
     private BigDecimal baseSalaryUser;
-    private RoleModel role;
 
-    public UserModel(Long idUser, String nameUser, String lastNameUser, String documentUser, LocalDate birthdayUser, String addressUser, String phoneUser, String emailUser, BigDecimal baseSalaryUser, RoleModel role) {
+    public UserModel(Long idUser, String nameUser, String lastNameUser, String documentUser, LocalDate birthdayUser, String addressUser, String phoneUser, String emailUser, BigDecimal baseSalaryUser) {
         this.idUser = idUser;
         this.nameUser = nameUser;
         this.lastNameUser = lastNameUser;
@@ -27,7 +24,6 @@ public class UserModel {
         this.phoneUser = phoneUser;
         this.emailUser = emailUser;
         this.baseSalaryUser = baseSalaryUser;
-        this.role = role;
     }
 
     public Long getIdUser() {
@@ -101,14 +97,5 @@ public class UserModel {
     public void setBaseSalaryUser(BigDecimal baseSalaryUser) {
         this.baseSalaryUser = baseSalaryUser;
     }
-
-    public RoleModel getRole() {
-        return role;
-    }
-
-    public void setRole(RoleModel role) {
-        this.role = role;
-    }
-
 
 }
