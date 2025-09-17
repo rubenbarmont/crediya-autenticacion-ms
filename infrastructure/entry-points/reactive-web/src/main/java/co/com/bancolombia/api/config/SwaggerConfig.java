@@ -21,8 +21,8 @@ public class SwaggerConfig {
                                 .bearerFormat("JWT")))
                 .addSecurityItem(new SecurityRequirement().addList("bearerAuth"))
                 .info(new Info()
-                        .title("Authentication Microservices")
-                        .description("Documentation about authentication microservices")
+                        .title("CrediYa Autenticacion Microservices")
+                        .description("Documentation about crediya autenticacion microservices")
                         .version("1.0.0"));
     }
 }
